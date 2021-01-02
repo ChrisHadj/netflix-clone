@@ -76,11 +76,11 @@ export const Item = styled.div`
     max-width: 700px;
     width: 100%;
 
-    &::first-of-type {
+    &:first-of-type {
         margin-top: 3em;
     }
 
-    &::last-of-type {
+    &:last-of-type {
         margin-bottom: 0;
     }
 `;
